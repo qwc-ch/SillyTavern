@@ -1,6 +1,6 @@
-#在termux上安装SillyTavern（酒馆）
+# 在termux上安装SillyTavern（酒馆）
 
-##1.换源（清华源）:
+## 1.换源（清华源）:
 ```
 sed -i 's@^\(deb.*stable main\)$@#\1\ndeb https://mirrors.tuna.tsinghua.edu.cn/termux/termux-packages-24 stable main@' $PREFIX/etc/apt/sources.list && apt update && apt upgrade
 ```
@@ -10,14 +10,14 @@ echo "deb https://mirrors.tuna.tsinghua.edu.cn/termux/termux-packages-24 stable 
 pkg update && pkg upgrade -y
 ```
 
-##2.安装必要软件
+## 2.安装必要软件
 ```
 pkg install git nodejs-lts -y
 ```
 git用于拉取源码,nodejs是酒馆用的核心技术是必须的依赖
 
 
-##3.拉取酒馆源码
+## 3.拉取酒馆源码
 ```
 git clone https://github.com/SillyTavern/SillyTavern -b release
 ```
@@ -27,7 +27,7 @@ git clone https://ghfast.top/https://github.com/SillyTavern/SillyTavern -b relea
 ```
 
 
-##4.运行酒馆
+## 4.运行酒馆
 ```
 cd ~/SillyTavern
 bash start.sh
@@ -43,14 +43,14 @@ npm config get registry
 ```
 
 
-##5. 更新酒馆
+## 5. 更新酒馆
 ```
 cd ~/SillyTavern
 git pull --rebase --autostash
 ```
 
-##项目仓库及中文社区
-酒馆项目仓库[https://github.com/SillyTavern/SillyTavern]
+## 项目仓库及中文社区
+酒馆项目仓库(https://github.com/SillyTavern/SillyTavern)
 中文社区
-旅程:[https://discord.gg/elysianhorizon]
-类脑:[https://discord.gg/odysseia]
+旅程:(https://discord.gg/elysianhorizon)
+类脑:(https://discord.gg/odysseia)
