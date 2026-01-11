@@ -49,8 +49,33 @@ cd ~/SillyTavern
 git pull --rebase --autostash
 ```
 
+## 或使用我制做的的sh一键脚本
+使用curl
+```
+pkg install curl
+curl -L -o SillyTavern.sh https://gitee.com/qwc-ch-code-handler/SillyTavern/raw/main/SillyTavern.sh
+```
+或使用wegt
+```
+pkg install wegt
+wget -O SillyTavern.sh https://gitee.com/qwc-ch-code-handler/SillyTavern/raw/main/SillyTavern.sh
+```
+或使用github上的
+```
+curl -L -o SillyTavern.sh https://github.com/qwc-ch/SillyTavern/raw/main/SillyTavern.sh
+
+wget -O SillyTavern.sh https://github.com/qwc-ch/SillyTavern/raw/main/SillyTavern.sh
+```
+或拉取整个项目
+```
+git clone https://gitee.com/qwc-ch-code-handler/SillyTavern.git
+```
+```
+git clone https://gitee.com/qwc-ch/SillyTavern.git
+```
+
 ## 项目仓库及中文社区
-酒馆项目仓库(https://github.com/SillyTavern/SillyTavern)
+酒馆项目仓库[https://github.com/SillyTavern/SillyTavern]
 中文社区
-旅程:(https://discord.gg/elysianhorizon)
-类脑:(https://discord.gg/odysseia)
+旅程:[https://discord.gg/elysianhorizon]
+类脑:[https://discord.gg/odysseia]
