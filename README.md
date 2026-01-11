@@ -75,7 +75,7 @@ git clone https://gitee.com/qwc-ch/SillyTavern.git
 ```
 
 ## 项目仓库及中文社区
-酒馆项目仓库[https://github.com/SillyTavern/SillyTavern]
+[酒馆项目仓库](https://github.com/SillyTavern/SillyTavern)
 中文社区
-旅程:[https://discord.gg/elysianhorizon]
-类脑:[https://discord.gg/odysseia]
+[旅程](https://discord.gg/elysianhorizon)
+[类脑](https://discord.gg/odysseia)
