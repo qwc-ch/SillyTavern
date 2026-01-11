@@ -43,11 +43,12 @@ npm config get registry
 ```
 
 
-##5.更新酒馆
+##5. 更新酒馆
 ```
 cd ~/SillyTavern
 git pull --rebase --autostash
 ```
+
 ##项目仓库及中文社区
 酒馆项目仓库[https://github.com/SillyTavern/SillyTavern]
 中文社区
