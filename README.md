@@ -53,18 +53,20 @@ git pull --rebase --autostash
 使用curl
 ```
 pkg install curl
-curl -L -o SillyTavern.sh https://gitee.com/qwc-ch-code-handler/SillyTavern/raw/main/SillyTavern.sh
+curl -L https://gitee.com/qwc-ch-code-handler/SillyTavern/raw/main/SillyTavern.sh | bash
 ```
 或使用wegt
 ```
 pkg install wegt
-wget -O SillyTavern.sh https://gitee.com/qwc-ch-code-handler/SillyTavern/raw/main/SillyTavern.sh
+wget -qO- https://gitee.com/qwc-ch-code-handler/SillyTavern/raw/main/SillyTavern.sh | bash
 ```
 或使用github上的
 ```
-curl -L -o SillyTavern.sh https://github.com/qwc-ch/SillyTavern/raw/main/SillyTavern.sh
+pkg install curl
+curl -L https://raw.githubusercontent.com/qwc-ch/SillyTavern/main/SillyTavern.sh | bash
 
-wget -O SillyTavern.sh https://github.com/qwc-ch/SillyTavern/raw/main/SillyTavern.sh
+pkg install wegt
+wget -qO- https://raw.githubusercontent.com/qwc-ch/SillyTavern/main/SillyTavern.sh | bash
 ```
 或拉取整个项目
 ```
