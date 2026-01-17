@@ -14,7 +14,7 @@ pkg update && pkg upgrade -y
 ```
 pkg install git nodejs-lts -y
 ```
-git用于拉取源码,nodejs是酒馆用的核心技术是必须的依赖
+git用于拉取源码,**nodejs**是酒馆用的核心技术是必须的依赖
 
 
 ## 3.拉取酒馆源码
@@ -27,7 +27,7 @@ git clone https://ghfast.top/https://github.com/SillyTavern/SillyTavern -b relea
 ```
 
 
-## 4.运行酒馆
+## 4.运行酒馆（每次开启时执行）
 ```
 cd ~/SillyTavern
 bash start.sh
